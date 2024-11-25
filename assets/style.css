@@ -1,0 +1,41 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .image-container .text {
+    position: absolute;
+    top: 70%; 
+    left: 20%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.image-container2{
+    width: 100%;
+}
+
+.image-container3{
+    margin-left: 400px;
+}
+
+.text{
+    margin-right: 300px;
+}
+
+.pollock{
+    display: flex;
+}
+.textpollock{
+    margin-left: 30px;
+    margin-top: 80px;
+}
